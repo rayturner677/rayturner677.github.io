@@ -12,3 +12,7 @@
 .handwritten {
     font-family: "Mr Dafoe", cursive;
 }
+
+img.portfolio-image {
+    width: 15rem;
+}
