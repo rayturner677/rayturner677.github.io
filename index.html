@@ -1,137 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Ray Turner - Base Camp Coding Academy</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ray Turner - Base Camp Coding Academy</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
+        <link
+            href="https://fonts.googleapis.com/css?family=Mr+Dafoe"
+            rel="stylesheet"
+        />
 
-    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body class="background">
-    <div class="container">
-        <div class="row">
-            <div class="mx-auto py-3">
-                <h1 class="handwritten">Ray Turner</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                        aria-controls="v-pills-home" aria-selected="true">Home</a>
-                    <a class="nav-link" id="v-pills-profile-tab" href="#projects" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">Profile</a>
-                    <a class="nav-link" id="v-pills-messages-tab" href="https://github.com/rayturner677" role="tab"
-                        aria-controls="v-pills-messages" aria-selected="false">Github</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                        aria-controls="v-pills-settings" aria-selected="false">Resume</a>
+    <body class="background">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto py-3">
+                    <h1 class="handwritten">Ray Turner</h1>
                 </div>
             </div>
-
-            <div class="col-sm-9">
-                <div class="card">
-                    <div class="card-header">
-                        About Me
+            <div class="row">
+                <div class="col-sm-3">
+                    <div
+                        class="nav flex-column nav-pills"
+                        id="v-pills-tab"
+                        role="tablist"
+                        aria-orientation="vertical"
+                    >
+                        <a
+                            class="nav-link active"
+                            id="v-pills-home-tab"
+                            data-toggle="pill"
+                            href="#v-pills-home"
+                            role="tab"
+                            aria-controls="v-pills-home"
+                            aria-selected="true"
+                            >Home</a
+                        >
+                        <a
+                            class="nav-link"
+                            id="v-pills-profile-tab"
+                            href="#projects"
+                            role="tab"
+                            aria-controls="v-pills-profile"
+                            aria-selected="false"
+                            >Profile</a
+                        >
+                        <a
+                            class="nav-link"
+                            id="v-pills-messages-tab"
+                            href="https://github.com/rayturner677"
+                            role="tab"
+                            aria-controls="v-pills-messages"
+                            aria-selected="false"
+                            >Github</a
+                        >
+                        <a
+                            class="nav-link"
+                            id="v-pills-settings-tab"
+                            data-toggle="pill"
+                            href="#v-pills-settings"
+                            role="tab"
+                            aria-controls="v-pills-settings"
+                            aria-selected="false"
+                            >Resume</a
+                        >
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <div class="d-flex">
-                            <div class="pr-3">
-                                <div><img class="rounded" src="ray.JPG" alt="" width="100px"></div>
-                                <div class="d-flex justify-content-between icon-list pt-3">
-                                    <i class="fas fa-envelope-square"></i>
-                                    <i class="fab fa-github-square"></i>
-                                    <i class="fab fa-linkedin"></i>
+                </div>
+
+                <div class="col-sm-9">
+                    <div class="card">
+                        <div class="card-header">About Me</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <div class="d-flex">
+                                <div class="pr-3">
+                                    <div>
+                                        <img
+                                            class="rounded"
+                                            src="ray.JPG"
+                                            alt=""
+                                            width="100px"
+                                        />
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-between icon-list pt-3"
+                                    >
+                                        <i class="fas fa-envelope-square"></i>
+                                        <i class="fab fa-github-square"></i>
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        I am Ray Turner from Water Valley, MS.
+                                        It is a small town known mainly for it's
+                                        farmers and annual Watermelon Carnival.
+                                        I am a student at Base Camp Coding
+                                        Academy, and I am interested in becoming
+                                        a software developer.
+                                    </p>
+                                    <p class="card-text">
+                                        I find myself entering the world of
+                                        coding and I have been loving it so far.
+                                        It can be very challenging at times, but
+                                        nothing worth true value is ever easy.
+                                    </p>
                                 </div>
                             </div>
-                            <div>
-                                <p class="card-text">
-                                    I am Ray Turner from Water Valley, MS. It is a small town known mainly for
-                                    it's farmers and annual Watermelon Carnival. I am a student at
-                                    Base Camp Coding Academy, and I am interested in becoming a software developer.
-                                </p>
-                                <p class="card-text">
-                                    I find myself entering the world of coding and I have been loving it so
-                                    far. It can be very challenging at times, but nothing worth true value is ever
-                                    easy.
-                                </p>
-                            </div>
+                            <a
+                                href="https://www.linkedin.com/"
+                                class="btn btn-primary float-right"
+                                >LinkedIn</a
+                            >
                         </div>
-                        <a href="https://www.linkedin.com/" class="btn btn-primary float-right">LinkedIn</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="header pt-2 pl-2">
-            <h1 id="projects">Projects</h1>
+        <div class="container">
+            <div class="header pt-2 pl-2"><h1 id="projects">Projects</h1></div>
+            <div class="row">
+                <div class="col-sm border">
+                    <h1 class="border">Python</h1>
+                    <ul>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <div>
+                                    <a
+                                        href="https://asciinema.org/a/X8NnSmRO00uGdSlR1574qPFnk"
+                                        target="_blank"
+                                        ><img
+                                            class="portfolio-image"
+                                            src="https://asciinema.org/a/X8NnSmRO00uGdSlR1574qPFnk.png"
+                                    /></a>
+                                </div>
+                                <img
+                                    class="portfolio-image card-img-top"
+                                    src=""
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">Gladiator</h5>
+                                    <p class="card-text">
+                                        In this program we created two gladiator
+                                        that you gave you the three options to
+                                        either attack, heal, or to pass. This
+                                        cycle continues until one of the
+                                        gladiators health reaches zero and then
+                                        the program returns the winner.
+                                    </p>
+                                    <a
+                                        href="https://github.com/rayturner677/gladiator-dictionary"
+                                        class="btn btn-primary"
+                                        >See Code</a
+                                    >
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    class="portfolio-image card-img-top"
+                                    src="rentalss.png"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">Rental Store</h5>
+                                    <p class="card-text">
+                                        this program takes presents a user
+                                        friendly application that allows the
+                                        user to check the inventory. Rent from
+                                        the inventory and return rented items.
+                                    </p>
+                                    <a
+                                        href="https://github.com/rayturner677/rental_store_rayturner"
+                                        class="btn btn-primary"
+                                        >See Code</a
+                                    >
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm border">
+                    <h1 class="border">Css/HTML</h1>
+                    <ul>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    class="portfolio-image card-img-top"
+                                    src="rentalss.png"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">Rental Store</h5>
+                                    <p class="card-text">
+                                        I used html to help with my templates  with javascript and
+                                        bootstrap alone with some of my own
+                                        custom css to style the page
+                                        accordingly.
+                                    </p>
+                                    <a
+                                        href="https://github.com/rayturner677/rental_store_rayturner"
+                                        class="btn btn-primary"
+                                        >See Code</a
+                                    >
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm border">
+                    <h1 class="border">Javascript</h1>
+                    <ul>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    class="portfolio-image card-img-top"
+                                    src="tictactoe.png"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">Tic-Tac-Toe</h5>
+                                    <p class="card-text">
+                                        This is an simple application that I
+                                        used javascript help me with the actions
+                                        of my tic-tac-toe game.
+                                    </p>
+                                    <a
+                                        href="https://github.com/rayturner677/tic-tac-toe"
+                                        class="btn btn-primary"
+                                        >See Code</a
+                                    >
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-sm border">
-                <h1 class="border">Python</h1>
-                <ul>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <div>
-                                <a href="https://asciinema.org/a/X8NnSmRO00uGdSlR1574qPFnk" target="_blank"><img class="portfolio-image"
-                                        src="https://asciinema.org/a/X8NnSmRO00uGdSlR1574qPFnk.png" /></a>
-                            </div>
-                            <img class="portfolio-image card-img-top" src="">
-                            <div class="card-body">
-                                <h5 class="card-title">Gladiator</h5>
-                                <p class="card-text">In this program we created two gladiator that you gave you the
-                                    three options to either attack, heal, or to pass. This cycle continues until one of
-                                    the gladiators health reaches zero and then the program returns the winner. </p>
-                                <a href="https://github.com/rayturner677/gladiator-dictionary" class="btn btn-primary">See
-                                    Code</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img class="portfolio-image card-img-top" src=".../100px180/">
-                            <div class="card-body">
-                                <h5 class="card-title">Rental Store</h5>
-                                <p class="card-text">this program takes presents a user friendly application that
-                                    allows the user to check the inventory. Rent from the inventory and return rented
-                                    items.</p>
-                                <a href="https://github.com/rayturner677/rental_store_rayturner" class="btn btn-primary">See
-                                    Code</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm border">
-                <h1 class="border">Css/HTML</h1>
-            </div>
-            <div class="col-sm border">
-                <h1 class="border">Javascript</h1>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
-        crossorigin="anonymous"></script>
-</body>
-
+        <div class="container">
+                <div class="header pt-2 pl-2"><h1 id="projects">Projects</h1></div>
+                <div class="row">
+                    <div class="col-sm border">
+                        <h1 class="border">Django</h1>
+                        <ul>
+                            <li>
+                                <div class="card" style="width: 18rem;">
+                                        <img
+                                            class="portfolio-image card-img-top"
+                                            src="views.png"
+                                        />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Django-tests</h5>
+                                            <p class="card-text">
+                                                We are starting on django and how the whole system works. We have been using views for the action of the program.
+                                            </p>
+                                            <a
+                                                href="https://github.com/rayturner677/django_views_target_prac"
+                                                class="btn btn-primary"
+                                                >See Code</a
+                                            >
+                                        </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card" style="width: 18rem;">
+                                        <img
+                                            class="portfolio-image card-img-top"
+                                            src="tests.png"
+                                        />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Django-views</h5>
+                                            <p class="card-text">
+                                                We have started a bit more of test-driven development. We have been using test.py to help test the classes from views.py.
+                                            </p>
+                                            <a
+                                                href="https://github.com/rayturner677/django_views_target_prac"
+                                                class="btn btn-primary"
+                                                >See Code</a
+                                            >
+                                        </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+            integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
