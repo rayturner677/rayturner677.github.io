@@ -13,12 +13,12 @@ img.portfolio-image {
     font-size: 3rem;
     text-align: center !important;
 }
-/* #python-img {
-
-} */
-.lang-titles {
-    /* text-decoration: underline; */
+.ticker-img {
+    margin-left: 14rem;
 }
+/* .lang-titles {
+    text-decoration: underline;
+} */
 
 .lang-titles small {
     font-size: 1rem;
